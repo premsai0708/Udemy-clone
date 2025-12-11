@@ -79,6 +79,10 @@ body{
 .mylearning:hover .mylearning__popup{
     display: block;
 }
+
+.navbar-s4{
+    display: none;
+}
 .categories{
     display: flex;
     padding: 10px;
@@ -211,3 +215,37 @@ body{
     display: flex;
     justify-content: space-between;
 }
+
+/* mediaqueries */
+
+@media screen and (max-width:600px) {
+    body{
+        font-size: 10px;
+    }
+} 
+
+@media screen and (max-width:600px) {
+    .course-card{
+        flex-basis: 40%;
+        margin: 2px;
+    } 
+
+    .categories{
+        display: none;
+    }
+
+    .navbar-s2,.navbar-s3{
+        display: none;
+    }
+
+    .navbar-s4{
+        display: block;
+    }
+        
+    
+}
+
+
+
+
+    
